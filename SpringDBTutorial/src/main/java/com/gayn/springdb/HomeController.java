@@ -51,6 +51,7 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		System.out.println("Hello this is test version");
+		System.out.println("this is the new version");
 		
 		return "home";
 	}
